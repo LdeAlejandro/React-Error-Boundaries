@@ -17,7 +17,8 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{...themes.primary, token}}>
-      <Card/>
+      <Card />
+      <tr></tr>
           App
     </ThemeContext.Provider>
   );
